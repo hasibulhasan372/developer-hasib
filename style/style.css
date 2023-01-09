@@ -102,13 +102,17 @@
 }
 .element{
     background: #FD6E0A;
-    transform: scale(.9, .8) rotate(-280deg) ;
     border: 2px solid yellow;
-
+    transition: transform .6s linear 5s;
+    
+}
+.element:hover{
+    transform: scale(.9, .8) rotate(.5turn);
 }
 .element p{
  font-size: 24px;
  font-weight: 600;
 
 }
+
 /* Header Part End  */
