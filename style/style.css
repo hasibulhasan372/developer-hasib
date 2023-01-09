@@ -102,7 +102,7 @@
 }
 .element{
     background: #FD6E0A;
-    transform: scale(.70);
+    transform: scale(.9, .8) rotate(-280deg) ;
     border: 2px solid yellow;
 
 }
