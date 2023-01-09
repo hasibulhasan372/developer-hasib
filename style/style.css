@@ -90,7 +90,6 @@
 .scale, .element{
     width: 150px;
     height: 200px;
-    
     align-items: center;
     display: flex;
     justify-content: center;
@@ -99,20 +98,24 @@
     background: #000;
     margin-right: 50px;
     border: 2px solid rgb(255, 0, 149);
+    transition: transform .9s linear 2s;
 }
 .element{
     background: #FD6E0A;
     border: 2px solid yellow;
-    transition: transform .6s linear 5s;
+    transition: transform  .6s linear 1s, color .8s ease .5s;
     
 }
-.element:hover{
-    transform: scale(.9, .8) rotate(.5turn);
+.element:hover,.scale:hover{
+    transform: scale(.9, .8) rotate(00deg) translate(30px);
+    color: #fff;
 }
 .element p{
  font-size: 24px;
  font-weight: 600;
 
 }
-
+.transition{
+    
+}
 /* Header Part End  */
