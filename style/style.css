@@ -1,0 +1,114 @@
+/* Common CSS Start */
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-text {
+    color: #FD6E0A;
+}
+
+/* Common CSS End  */
+/* Header Part Start  */
+.header {
+
+    background-color: #FFF8F3;
+}
+
+/* Navigation Style Part Start   */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 226px 0 230px;
+    padding-top: 51px;
+}
+
+.logo-name {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-left: 51px;
+
+}
+
+/* Navigation Style Part End   */
+
+
+.child ul li:nth-child(3n+1){
+    color: aqua;
+}
+.mini-mini{
+    width: 150px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.short-text{
+    white-space: nowrap;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gelo{
+    width: 500px;
+    height: 400px;
+    border: 3px solid red;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.gelo-gelo{
+      
+}
+.dor{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    overflow:auto;
+
+}
+.scale-rotate-trans{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.scale, .element{
+    width: 150px;
+    height: 200px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.scale{
+    background: #000;
+    margin-right: 50px;
+    border: 2px solid rgb(255, 0, 149);
+}
+.element{
+    background: #FD6E0A;
+    transform: scale(.70);
+    border: 2px solid yellow;
+
+}
+.element p{
+ font-size: 24px;
+ font-weight: 600;
+
+}
+/* Header Part End  */
